@@ -1,0 +1,38 @@
+# Core web framework
+streamlit
+
+# Computer vision and image processing
+ultralytics
+opencv-python
+Pillow
+
+# Deep learning
+torch
+torchvision
+segmentation-models-pytorch
+albumentations
+
+# Scientific computing
+numpy
+scikit-learn
+
+# Google Sheets integration
+gspread
+oauth2client
+
+# OpenAI API
+openai
+
+# Data annotation format
+pycocotools
+
+# Progress bars
+tqdm
+
+# Date and time utilities
+python-dateutil
+
+# Additional utilities that might be needed
+requests
+matplotlib
+pandas
