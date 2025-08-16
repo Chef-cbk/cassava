@@ -29,7 +29,7 @@ model = "openai/gpt-4.1"
 modelleaf = YOLO("best-2-aug.pt")
 
 # Initialize DeepLabV3 predictor for disease detection
-MODEL_PATH = '/Users/khemikadeedaungphan/Downloads/116-cbsd-model.pt'
+MODEL_PATH = '116-cbsd-model.pt'
 config = {
     'img_size': 512,
     'confidence_threshold': 0.7,
