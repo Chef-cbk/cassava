@@ -378,7 +378,7 @@ def get_images_from_directory(image_dir, extensions=['.jpg', '.jpeg', '.png', '.
 
 # Usage Example
 if __name__ == "__main__":
-    MODEL_PATH = '/Users/khemikadeedaungphan/Downloads/116-cbsd-model.pt'
+    MODEL_PATH = '116-cbsd-model.pt'
     
     # Custom configuration
     config = {
