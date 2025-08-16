@@ -15,7 +15,7 @@ import tempfile
 
 # --- SETUP ---
 scope = ["https://www.googleapis.com/auth/spreadsheets", "https://www.googleapis.com/auth/drive"]
-creds = ServiceAccountCredentials.from_json_keyfile_name("/Users/khemikadeedaungphan/Desktop/leaf-diseases-detect-main/sheet-430509-7be54b327849.json", scope)
+creds = ServiceAccountCredentials.from_json_keyfile_name("sheet-430509-7be54b327849.json", scope)
 client = gspread.authorize(creds)
 sheet = client.open("data").sheet1
 
